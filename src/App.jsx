@@ -1,5 +1,6 @@
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
+import RegisterPage from './pages/RegisterPage';
 import Footer from './components/Footer';
 
 const App = () => {
@@ -7,7 +8,8 @@ const App = () => {
     <div className="app-container">
       <Navbar />
       <main className="main-content">
-        <Home />
+        {/* <Home /> */}
+        <RegisterPage />
       </main>
       <Footer />
     </div>
